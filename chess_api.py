@@ -32,7 +32,7 @@ def get_player(user, which = "profile"):
     @returns: a list containing the chess.com players info. 
     """
     
-    if type == "profile": 
+    if which == "profile": 
         
         res = get_json('https://api.chess.com/pub/player/' + user)
     
