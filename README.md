@@ -4,4 +4,4 @@ Here, I use python to analyse [chess.com](https://www.chess.com/) data to answer
 
 ## Acknowledgements
 
-This kind of analysis is made possible thanks to [chess.com's API](https://www.chess.com/news/view/published-data-api). 
+This kind of analysis is made possible thanks to [chess.com's API](https://www.chess.com/news/view/published-data-api) and the accompanying [python wrapper](https://chesscom.readthedocs.io/en/latest/).
