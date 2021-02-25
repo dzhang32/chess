@@ -42,7 +42,7 @@ def get_country_players_info(iso, info):
 
     players_info = []
     
-    for i in range(10):
+    for i in range(len(players)):
         
         player = cdc.caller.get_player_profile(players[i]).json
         players_info.append(player[info])
