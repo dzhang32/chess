@@ -9,20 +9,13 @@ Created on Thu Feb 25 09:32:18 2021
 import chessdotcom as cdc
 import pandas as pd
 import datetime as dt
-import os
+import utils
 from tqdm import tqdm
 import random
 
 def main(iso, info, n, rel_results_dir):
     
-    # use a relative path to the script
-    # to determine output path, to allow transferability between machines
-    script_path = os.path.abspath(__file__)
-    script_dir = os.path.dirname(script_path)
-    results_dir = os.path.join(script_dir, rel_results_dir)
-    
-    # convert this back to absolute path for printing
-    results_dir = os.path.abspath(results_dir)
+    results_dir = utils.get_rel_dir(__file__, rel_results_dir)
     
     print("Downloading %s players '%s' info to %s" % (iso, info, results_dir))
     
