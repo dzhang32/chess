@@ -49,12 +49,25 @@ def main(iso, start_date, n_months, rel_results_dir):
     return n_games_all
         
 def get_n_games_window(username, start_date, n_months):
-
+    """Get number of games played each month for user across set time period
+    
+    @type username: str
+    @param username: chess.com username of the player. 
+    @type start_date: datetime
+    @param start_date: The starting month from which to obtain n games played.
+    @type n_months: int
+    @param n_months: The number of months for which to obtain n games played.
+    @rtype: DataFrame
+    @returns: a DataFrame containing number of games played each month across 
+    set time period"""
+    
     n_games = {}
     
     for i in range(n_months):
         
         date_of_interest = start_date + relativedelta(months = i)
+        
+        # keep only the year and month for storing
         date_of_interest_str = dt.datetime.strftime(date_of_interest, "%Y_%m")
         
         games = cdc.caller.get_player_games_by_month(
@@ -63,6 +76,7 @@ def get_n_games_window(username, start_date, n_months):
             )
         games = games.json 
         
+        # summarise to number of the games
         n_games[date_of_interest_str] = len(games["games"])
         
     n_games = pd.DataFrame({"username": username, 
