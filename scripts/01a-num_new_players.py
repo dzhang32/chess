@@ -56,7 +56,7 @@ def get_country_players_info(iso, info, n):
 
 if __name__ == "__main__":
     
-    main(iso = "GB", info = "joined", n = 10000, rel_results_dir = "../data")
-    main(iso = "IT", info = "joined", n = 10000, rel_results_dir = "../data")
-    main(iso = "CO", info = "joined", n = 10000, rel_results_dir = "../data")
-    main(iso = "CN", info = "joined", n = 10000, rel_results_dir = "../data")
+    main(iso = "GB", info = "joined", n = 5000, rel_results_dir = "../data")
+    main(iso = "IT", info = "joined", n = 5000, rel_results_dir = "../data")
+    main(iso = "CO", info = "joined", n = 5000, rel_results_dir = "../data")
+    main(iso = "CN", info = "joined", n = 5000, rel_results_dir = "../data")
