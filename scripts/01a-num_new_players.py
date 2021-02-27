@@ -45,18 +45,19 @@ def get_country_players_info(iso, info, n):
     """
     
     players = cdc.caller.get_country_players(iso).json["players"]
-
-    players_info = []
     
     # select index of random n players
     player_indexes = random.sample(range(0, len(players)), n)
+    players = [players[i] for i in player_indexes]
+
+    players_info = []    
     
-    for i in tqdm(player_indexes):
+    for i in tqdm(range(len(players))):
         
         player = cdc.caller.get_player_profile(players[i]).json
         players_info.append(player[info])
         
-    players_info = pd.DataFrame({info: players_info})
+    players_info = pd.DataFrame({"user": players, info: players_info})
     
     return players_info
 
