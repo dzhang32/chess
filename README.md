@@ -2,14 +2,14 @@
 
 I'm a below average chess player, with above average enthusiasm about chess. The 2 main goals of this project are: 
    
-    1. Answer some interesting questions related to chess. 
-    2. Practice and improve my Python programming skills. 
+1. Answer some interesting questions related to chess. 
+2. Practice and improve my Python programming skills. 
 
 To this end, I use python to analyse [chess.com](https://www.chess.com/) data to answer the following questions: 
 
-    1. How has *The Queen's Gambit* impacted the popularity of online chess [Blog](TBA) [Jupyter Notebook](https://github.com/dzhang32/chess/blob/main/01-queens_gambit.ipynb)
-    2. How has *The Queen's Gambit* impacted the nature of online chess play.
-    3. Deriving insights from my own chess games. 
+1. How has *The Queen's Gambit* impacted the popularity of online chess [Blog](TBA) [Jupyter Notebook](https://github.com/dzhang32/chess/blob/main/01-queens_gambit.ipynb)
+2. How has *The Queen's Gambit* impacted the nature of online chess play.
+3. Deriving insights from my own chess games. 
     
 ## Repository structure
 
