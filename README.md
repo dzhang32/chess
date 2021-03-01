@@ -1,6 +1,6 @@
 # ____ chess ____ ?
 
-I'm a [below average chess player](https://www.chess.com/member/persist32), with above average enthusiasm about chess. 
+I'm an [below average chess player](https://www.chess.com/member/persist32), with above average enthusiasm about chess. 
 
 The 2 goals of this project are: 
    
@@ -17,7 +17,7 @@ To address this, I use python to analyse [chess.com](https://www.chess.com/) dat
     
 ## Repository structure
 
-Each question will have it's accompanying [Medium](https://medium.com/@dzhang32) blogpost and Jupyter notebook. The source code for some of the longer analyses can be found in [scripts](scripts/). All jupyter notebooks and scripts relating each question will be prefaced with the number associated with that question above (e.g. `01-script_or_jnb_name`). 
+Each question will have it's accompanying [Medium](https://medium.com/@dzhang32) blogpost and Jupyter notebook. Data wrangling and plotting code is found in the jupyter notebooks and longer, API-querying jobs are located in [scripts](scripts/).
 
 ## Acknowledgements
 
