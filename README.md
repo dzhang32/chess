@@ -1,6 +1,6 @@
 # ____ chess ____ ?
 
-I'm an [below average chess player](https://www.chess.com/member/persist32), with above average enthusiasm about chess. 
+I'm a [below average chess player](https://www.chess.com/member/persist32), with above average enthusiasm about chess. 
 
 The 2 goals of this project are: 
    
