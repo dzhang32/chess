@@ -11,7 +11,7 @@ To address this, I use python to analyse [chess.com](https://www.chess.com/) dat
 
 | No. | Question | Blog | Jupyter Notebook |
 | --- | --- | --- | --- |
-| 01 | How has *The Queen's Gambit* impacted the popularity of online chess? | [blog](https://medium.com/@dzhang32/how-has-the-queens-gambit-impacted-the-popularity-of-online-chess-43594efe5a98) | [jnb](https://github.com/dzhang32/chess/blob/main/01-queens_gambit.ipynb) |
+| 01 | How has *The Queen's Gambit* impacted the popularity of online chess? | [blog](https://towardsdatascience.com/how-has-the-queens-gambit-impacted-the-popularity-of-online-chess-43594efe5a98) | [jnb](https://github.com/dzhang32/chess/blob/main/01-queens_gambit.ipynb) |
 | 02 | How has *The Queen's Gambit* impacted online chess games? | TBA | TBA |
 | 03 | Can I derive insights from my own online chess games to help improve at chess? | TBA | TBA |
     
