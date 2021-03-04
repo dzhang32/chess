@@ -7,7 +7,7 @@ The 2 goals of this project are:
 1. To answer interesting questions chess related questions. 
 2. To practice and improve my python programming skills. 
 
-To address this, I use python to analyse [chess.com](https://www.chess.com/) data and answer the following questions: 
+To address these, I use python to analyse [chess.com](https://www.chess.com/) data and answer the following questions: 
 
 | No. | Question | Blog | Jupyter Notebook |
 | --- | --- | --- | --- |
