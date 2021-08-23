@@ -7,17 +7,15 @@ The 2 goals of this project are:
 1. To answer interesting questions chess related questions. 
 2. To practice and improve my python programming skills. 
 
-To address these, I use python to analyse [chess.com](https://www.chess.com/) data and answer the following questions: 
+To address these, I use python to analyse [chess.com](https://www.chess.com/) data and answer the following question.
 
-| No. | Question | Blog | Jupyter Notebook |
-| --- | --- | --- | --- |
-| 01 | How has *The Queen's Gambit* impacted the popularity of online chess? | [blog](https://towardsdatascience.com/how-has-the-queens-gambit-impacted-the-popularity-of-online-chess-43594efe5a98) | [jnb](https://github.com/dzhang32/chess/blob/main/01-queens_gambit.ipynb) |
-| 02 | How has *The Queen's Gambit* impacted online chess games? | TBA | TBA |
-| 03 | Can I derive insights from my own online chess games to help improve at chess? | TBA | TBA |
-    
+| Question | Blog | Jupyter Notebook |
+| --- | --- | --- |
+| How has *The Queen's Gambit* impacted the popularity of online chess? | [blog](https://towardsdatascience.com/how-has-the-queens-gambit-impacted-the-popularity-of-online-chess-43594efe5a98) | [jnb](https://github.com/dzhang32/chess/blob/main/01-queens_gambit.ipynb) |
+
 ## Repository structure
 
-Each question will have it's accompanying [Medium](https://medium.com/@dzhang32) blogpost and Jupyter notebook. Data wrangling and plotting code is found in the jupyter notebooks and longer, API-querying jobs are located in [scripts](scripts/).
+Data wrangling and plotting code is found in the jupyter notebooks and longer, API-querying jobs are located in [scripts](scripts/).
 
 ## Acknowledgements
 
